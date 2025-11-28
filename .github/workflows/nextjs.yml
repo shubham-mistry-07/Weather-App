@@ -30,3 +30,4 @@ jobs:
             echo "runner=yarn" >> $GITHUB_OUTPUT
           elif [ -f "${{ github.workspace }}/package.json" ]; then
             echo "manager=npm"
+          fi
