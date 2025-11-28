@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // no experimental.turbo key
-  webpack: (config) => {
-    return config; // keep default webpack behavior
-  },
+  turbopack: {},
 };
 
 module.exports = nextConfig;
